@@ -1,0 +1,15 @@
+{
+  "name": "flashcards",
+  "description": "freitags-projekt",
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.0",
+    "middlewares/trailing-slash": "^2.0",
+    "mongodb/mongodb": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Example\\": "classes/"
+    }
+  }
+}
